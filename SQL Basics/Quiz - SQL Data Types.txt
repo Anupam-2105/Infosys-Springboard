@@ -1,0 +1,61 @@
+1) Which data type can be used to store weight of a person in kilograms with accuracy of 1 gram. As per wikipedia, Jon Brower Minnoch was the heaviest human ever recorded with a weight of 635kg.
+
+Ans : NUMBER(6,3)
+
+
+2) What is the maximum value that can be stored in NUMERIC(4,2)?
+
+Ans : 99.99
+
+
+3) Which of the below statements are TRUE? [Choose any TWO]
+
+Ans :  Scale denotes number of digits allowed after decimal point
+SQL performs rounding if user attempts to store a value that has higher scale than the data type
+
+
+4)Select the most suitable data type possible for the given column.
+Column Name:  Price
+Description: Cost of an item in rupees and paise
+Example: 200.21
+
+Ans : NUMBER(5,2)
+
+
+5) Select the most suitable data type possible for the given column.
+Column Name:  Meeting_Time
+Description: Time and date of the meeting
+Example: 2014/01/01 10:00 AM
+
+Ans : TIMESTAMP
+
+
+6) Choose the most suitable data type possible for the given column.
+Column Name:  Profile_Image
+Description: Image of the employee
+
+Ans : BLOB
+
+
+7) Choose the most suitable data type possible for the given column.
+Column Name:  Book_Title
+Description: A text string
+Example: Winning
+
+Ans : VARCHAR2(50)
+
+
+8) Choose the most suitable data type possible for the given column.
+Column Name:  Gender
+Description: A single character gender code, M or F
+Example: M
+
+Ans : CHAR(1)
+
+
+9) Choose the most suitable data type possible for the given column.
+Column Name:  PIN_Code
+description: Six digit numeric PIN code for any address in India
+Example: 560100
+
+Ans : NUMBER(6)

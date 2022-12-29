@@ -1,0 +1,49 @@
+1) Which of the following are classifications of SQL? [Choose any TWO]
+
+Ans : Data Definition Language
+Data Manipulation Language 
+
+
+2) Maria, a database programmer wants to change the marks of a student present in the marks column of the student table.
+Which of the following command should she use?
+
+Ans : Update
+
+
+3) Determine the appropriate command classification for the following command.
+Command- ALTER ( Modifies existing database objects like tables )
+
+Ans : DDL
+
+
+4)Determine the appropriate command classification for the following command.
+Command- REVOKE ( Remove access to database objects like tables from users )
+
+Ans : DCL
+
+
+5) To save the database changes permanently commands from which command classification should be used?
+
+Ans : TCL
+
+
+6) Alex, a database programmer has to add the details about a new student into the student table. In order to do that he has used INSERT Command.
+Determine the appropriate command classification for INSERT.
+
+Ans : DML
+
+
+7) Determine the appropriate command classification for the following command.
+Command- TRUNCATE ( Empty a table by deleting all rows )
+
+Ans : DDL
+
+
+8) Match the following commands and the descriptions.
+
+Ans : UPDATE - Used to change existing data in tables
+ALTER - Modifies existing database objects like tables.
+REVOKE - Remove access to database objects like tables from users
+COMMIT - Save database changes and end transaction 
+INSERT - Add new rows to database tables
+TRUNCATE - Empty a table by deleting all rows
