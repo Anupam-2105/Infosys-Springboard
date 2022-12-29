@@ -1,0 +1,31 @@
+1) A functional dependency is a relationship between or among
+
+Ans : Attributes
+
+
+2) Which functional dependency types is/are present in following dependencies? [Choose any TWO]
+StaffNo, BranchNo -> StaffName, BranchName, Position, DOB
+StaffNo -> StaffName, Position, DOB
+BranchNo -> BranchName
+
+Ans : Full functional dependency 
+Partial functional dependency
+
+
+3) Which functional dependency types is/are present in the following dependencies? [Choose any TWO]
+EmpNo -> EName, Salary, DeptNo, DName
+DeptNo -> DName
+
+Ans : Full functional dependency
+Transitive functional dependency 
+
+
+4) Consider a relation R(A, B, C, D) with the following functional dependencies: A -> (B, C, D), (A, D) -> (B, C) and (C, D) -> (A, B).
+Identify the candidate key(s).
+
+Ans : {A}, {C, D} 
+
+
+5) A -> B also means that B -> A. State if the statement is True or False.
+
+Ans : False

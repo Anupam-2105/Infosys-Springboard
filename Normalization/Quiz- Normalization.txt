@@ -1,0 +1,22 @@
+1) The database design prevents some data from being stored due to _______.
+
+Ans : Insertion Anomalies
+
+
+2) A relation is in 2NF if:
+
+Ans : All of the above
+
+
+3) If one attribute is determinant of second, which in turn is determinant of third, (A->B and B->C) then the relation cannot be
+
+Ans : 3 NF
+
+
+4) Consider the relation Sale(Date, Customer, Product, Vendor, VendorCity, SalesRep)
+{Date, Customer, Product} is the composite candidate key and the following functional dependencies are also given:
+Vendor -> VendorCity, Product -> Vendor
+What is the highest normal form of the sale relation?
+
+Ans : 1 NF
+
