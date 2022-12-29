@@ -1,0 +1,13 @@
+1) In a relationship between two entities, exactly one instance of the first entity is related to zero or more instances of the second entity. Which of the following symbols in Crows Feet notation represents this relationship?
+
+B
+
+
+2) In a many to one relationship, the primary key of one entity acts as foreign key on which side?
+
+On the side where many relationship is defined
+
+
+3) How many tables do a many to many relationship between two entities result in?
+
+Three
