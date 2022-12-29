@@ -1,0 +1,69 @@
+1) Which of the following values can be successfully inserted into a column of datatype NUMBER(4,1)?
+i.   99.5
+ii.  999.98
+iii. 9999.9
+iv.  98.47
+v.   9.7856
+
+Ans : i, iv and v 
+
+
+2) Which is the appropriate datatype to store a maximum length of 8000 characters that can contain variable length unicode characters?
+
+Ans : CLOB
+
+
+3) Which is the CORRECT datatype to store the age of employees in the database?
+
+Ans : INTEGER
+
+
+4) How many among the following commands are DML statements?
+CREATE, UPDATE, TRUNCATE, DELETE , ROLLBACK and REVOKE
+
+Ans : 2
+
+
+5) Consider the below scenario:
+XYZ hospital has a procedure of filling up an admission form to admit a new patient. In the admission form, the details of patient like name, dob, and gender are required. A six digit unique numeric id is assigned to every patient. The admission form also requires a passport size photo of the patient. The recorddate consists of the date and time at which the patient was admitted to hospital and dob denotes the date of birth of the patient. The name of the patient can have a maximum of 50 characters and the gender has to be specified as M or F.
+What will be the appropriate data types for the columns mentioned below:
+    name    : _________ 
+    dob     : _________ 
+    gender  : _________ 
+Choose from the following options:
+CHAR(50), DATE, CHAR(1), VARCHAR2(1), VARCHAR2(50), TIMESTAMP
+
+Ans : VARCHAR2(50)
+DATE
+CHAR(1) 
+
+
+6) Consider the below scenario:
+
+XYZ hospital has a procedure of filling up an admission form to admit a new patient. In the admission form, the details of patient like name, dob, and gender are required. A six digit unique numeric id is assigned to every patient. The admission form also requires a passport size photo of the patient. The recorddate consists of the date and time at which the patient was admitted to hospital and dob denotes the date of birth of the patient. The name of the patient can have a maximum of 50 characters and the gender has to be specified as M or F.
+The appropriate data type for recorddate is _________
+Choose from the below options:
+VARCHAR2(20), TIMESTAMP, DATE, CHAR(20)
+
+Ans : TIMESTAMP
+
+
+7) Consider the below scenario:
+XYZ hospital has a procedure of filling up an admission form to admit a new patient. In the admission form, the details of patient like name, dob, and gender are required. A six digit unique numeric id is assigned to every patient. The admission form also requires a passport size photo of the patient. The recorddate consists of the date and time at which the patient was admitted to hospital and dob denotes the date of birth of the patient. The name of the patient can have a maximum of 50 characters and the gender has to be specified as M or F.
+Choose the appropriate data types for patientid and photo respectively:
+
+Ans : NUNMBER(6), BLOB
+
+
+8) Consider the below scenario:
+ABC Channel is a TV Channel and planning their best TV shows to marathon. On the website of the channel, the name of the shows are mentioned and it is open for marathoner’s(viewer’s) rating. Then, the aggregated rating for each of the show is taken and the shows with the best ratings are selected for marathon. The users can rate the show from 1 to 5. The aggregated rating is given by the average of all the ratings given by the viewers and rounded off to two decimal places.
+Choose the appropriate data type for avgrating column from the below:
+
+Ans : NUMBER(3,2)
+
+
+9) Evaluate the following expression assuming that the value of dept is XYZ and salary is 30000:
+NOT (5 !=5)  OR  (DEPT NOT IN(‘DEF’, ‘XYT’) AND SALARY BETWEEN 30000 AND 50000)
+What will be the output of the above expression?
+
+Ans : TRUE
