@@ -1,0 +1,30 @@
+1) A relational database consists of a collection of
+
+Tables 
+
+
+2) A relationship among a set of values in a table is represented by a
+
+Row
+
+
+3) The set of permitted values of an attribute is called
+
+Domain
+
+
+4) The attribute value that is currently unknown is
+
+NULL
+
+
+5) Consider the relation SalesMan(SId, SName, Location)
+What is the cardinality of the above relation?
+
+4
+
+
+6) Consider the relation SalesMan(SId, SName, Location)
+What is the degree of the above relation?
+
+3
