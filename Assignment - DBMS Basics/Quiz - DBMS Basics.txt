@@ -1,0 +1,106 @@
+1) Consider an application for Club membership. There are many clubs at different locations. A club can have many members. Each member belonging to a particular club has a unique identity number. The member id can be same for different clubs. The below relations are created.
+Club (ClubId, Name, Location)
+Member (ClubId, MemberId, Name, Address)
+Identify the Primary key for Club relation.
+
+Ans : ClubID
+
+
+2) Consider an application for Club membership. There are many clubs at different locations. A club can have many members. Each member belonging to a particular club has a unique identity number. The member id can be same for different clubs. The below relations are created.
+Club (ClubId, Name, Location)
+Member (ClubId, MemberId, Name, Address)
+Identify the Primary key for Club relation.
+
+Ans : {ClubId, MemberId}  
+
+
+3) Consider an application for Club membership. There are many clubs at different locations. A club can have many members. Each member belonging to a particular club has a unique identity number. The member id can be same for different clubs. The below relations are created.
+Club (ClubId, Name, Location)
+Member (ClubId, MemberId, Name, Address)
+Identify the Primary key for Club relation.
+
+Ans : Foreign key does not exist 
+
+
+4) Consider an application for Club membership. There are many clubs at different locations. A club can have many members. Each member belonging to a particular club has a unique identity number. The member id can be same for different clubs. The below relations are created.
+Club (ClubId, Name, Location)
+Member (ClubId, MemberId, Name, Address)
+Identify the Primary key for Club relation.
+
+Ans : CLubID
+
+
+5) Consider an application for a training institute. Here, a participant can enroll for multiple courses. A course can be enrolled by many participants. Assessments are conducted for courses and marks are awarded to participants. A participant is allowed to take assessment only once for a course. A participant can enroll for a course only if he/she has undertaken the prerequisite course. The below relations are created for the application.
+Participant (ParticipantId, Name, Address)
+Course (CourseId, Desc, Duration, Prerequisite)
+Assessment (CourseId, Marks, ParticipantId)
+Identify the Primary key for Participant relation.
+
+Ans : ParticipantId
+
+
+6) Consider an application for a training institute. Here, a participant can enroll for multiple courses. A course can be enrolled by many participants. Assessments are conducted for courses and marks are awarded to participants. A participant is allowed to take assessment only once for a course. A participant can enroll for a course only if he/she has undertaken the prerequisite course. The below relations are created for the application.
+Participant (ParticipantId, Name, Address)
+Course (CourseId, Desc, Duration, Prerequisite)
+Assessment (CourseId, Marks, ParticipantId)
+Identify the Primary key for Participant relation.
+
+Ans : {CourseId, ParticipantId} 
+
+
+7) Consider an application for a training institute. Here, a participant can enroll for multiple courses. A course can be enrolled by many participants. Assessments are conducted for courses and marks are awarded to participants. A participant is allowed to take assessment only once for a course. A participant can enroll for a course only if he/she has undertaken the prerequisite course. The below relations are created for the application.
+Participant (ParticipantId, Name, Address)
+Course (CourseId, Desc, Duration, Prerequisite)
+Assessment (CourseId, Marks, ParticipantId)
+Identify the Primary key for Participant relation.
+
+Ans : CourseID
+
+
+8) Consider an application for a training institute. Here, a participant can enroll for multiple courses. A course can be enrolled by many participants. Assessments are conducted for courses and marks are awarded to participants. A participant is allowed to take assessment only once for a course. A participant can enroll for a course only if he/she has undertaken the prerequisite course. The below relations are created for the application.
+Participant (ParticipantId, Name, Address)
+Course (CourseId, Desc, Duration, Prerequisite)
+Assessment (CourseId, Marks, ParticipantId)
+Identify the Primary key for Participant relation.
+
+Ans : Foreign key does not exist
+
+
+9) Consider an application for a training institute. Here, a participant can enroll for multiple courses. A course can be enrolled by many participants. Assessments are conducted for courses and marks are awarded to participants. A participant is allowed to take assessment only once for a course. A participant can enroll for a course only if he/she has undertaken the prerequisite course. The below relations are created for the application.
+Participant (ParticipantId, Name, Address)
+Course (CourseId, Desc, Duration, Prerequisite)
+Assessment (CourseId, Marks, ParticipantId)
+Identify the Primary key for Participant relation.
+
+Ans : CourseID
+ParticipantID
+
+
+10) Consider an application for a training institute. Here, a participant can enroll for multiple courses. A course can be enrolled by many participants. Assessments are conducted for courses and marks are awarded to participants. A participant is allowed to take assessment only once for a course. A participant can enroll for a course only if he/she has undertaken the prerequisite course. The below relations are created for the application.
+Participant (ParticipantId, Name, Address)
+Course (CourseId, Desc, Duration, Prerequisite)
+Assessment (CourseId, Marks, ParticipantId)
+Identify the Primary key for Participant relation.
+
+Ans : Prerequisite
+
+
+11)Joho Limited, a firm in the digital media and entertainment domain have gaming zones in different locations. Due to growth in business, the firm decides to use relational database to store customer information, product information, and day to day transactional information.
+Question: As per the business scenario, a 'Customer' relation is identified with 'CustomerId', 'CustomerName', 'City', 'ContactNumber', 'EmailAddress' as its attributes. While CustomerId, and EmailAddress are unique for every customer, the business requirement says that it is not mandatory for a customer to provide his EmailAddress. Which of the following would best suit the above context?
+
+Ans :  CustomerId is the candidate key as well as the primary key 
+
+
+12) Scenario:
+Joho Limited, a firm in the digital media and entertainment domain have gaming zones in different locations. Due to growth in business, the firm decides to use relational database to store customer information, product information, and day to day transactional information.
+Question: One of the requirements read 'games played by the customer are to be tracked with the timestamp'. While trying to implement this requirement, the expert team finds it necessary to have a transaction table that would have the details of the games played by the customer along with the date and time details.The transaction table is named as gaming with attributes TransactionId, CustomerId, GameId, Date, StartingTime, FinishingTime, AmountPayable. Attributes CustomerId and GameId in gaming table can take values that are present for customerid and GameId present in customer and game tables respectively.Which of the following two options would best suit the above context? [Choose any TWO]
+
+
+Ans :  CustomerId and GameId present in gaming table can take duplicate values. 
+CustomerId and GameId are foreign keys present in child table gaming, referring to CustomerId and GameId, the primary keys present in parent tables, Customer and Game respectively 
+
+
+13) Joho Limited, a firm in the digital media and entertainment domain have gaming zones in different locations. Due to growth in business, the firm decides to use relational database to store customer information, product information, and day to day transactional information.
+Question: “A specific requirement requires, an attribute in the Game table has to refer to the GameId attribute present in the same table. Such a reference would not be possible and it is decided that the requirement is unfeasible.”Choose whether the above decision of the requirement is True or False with the correct reason.
+
+Ans : False. An attribute in a table/relation can reference another attribute in the same table/relation and this is called Self Referencing Foreign Key 
