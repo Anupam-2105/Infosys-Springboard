@@ -1,0 +1,20 @@
+1) Which requirements can be implemented using a referential integrity constraint?
+
+Ans : Which requirements can be implemented using a referential integrity constraint?
+
+
+2) Which of the following statements are TRUE? [Choose any TWO]
+
+Ans : A Unique constraint allows multiple rows to have NULL value
+A PRIMARY KEY allows a single row to contain NULL value 
+
+
+3) Which requirements can be implemented using a CHECK constraint? [Choose any TWO]
+
+Ans : Age of the customer must be greater than 21
+Customer must have a residence in an Asian Country 
+
+
+4) Which is the constraint that can be defined only at the column level?
+
+Ans : NOT NULL
