@@ -1,0 +1,16 @@
+1) Which of the following statements is TRUE regarding the application of WHERE clause?
+
+Ans : Can be used on all columns 
+
+
+2) Which of the following conditions are equivalent? [Choose any TWO]
+
+Ans : "C1 >= 10" and "NOT C1 < 10" 
+"C1 IN (1,2)" and "C1 = 1 OR C1 = 2"  
+
+
+3) Consider a table Emp(Name, Salary)
+SELECT Name FROM Emp WHERE Salary BETWEEN 1000 AND 2000;
+The above query will display the names from the Emp table whose __________
+
+Ans : Salary is >=1000 and Salary <= 2000 
