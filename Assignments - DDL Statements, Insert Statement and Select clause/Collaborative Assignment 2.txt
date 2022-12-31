@@ -1,0 +1,20 @@
+Create the Shopper table with appropriate data types for the attributes described below.
+
+ColumnName		Constraints					DESCRIPTION
+Shopperid		PRIMARY KEY					Unique id of the shopper. For ex. 2001, 2003
+ShopperName		NOT NULL					Name of the Shopper. It cannot be more than 20 characters.
+Gender		should be only 'Male' or 'Female'	Gender of the Shopper. It cannot be more than 6 characters.
+MobileNo		NOT NULL					Mobile no of the Shopper in numeric form. Characters like brackets and hyphens are not allowed.
+Address								Address of the Shopper. It cannot be more than 50 characters. For ex. Allen Street, New York
+
+
+
+Query:
+
+CREATE TABLE Shopper(
+Shopperid NUMBER PRIMARY KEY,
+ShopperName VARCHAR2(20) NOT NULL,
+Gender CHAR(6) CHECK(GENDER IN ('Male', 'Female')),
+MobileNo NUMBER NOT NULL,
+Address VARCHAR2(50)
+)

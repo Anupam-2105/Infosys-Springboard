@@ -1,0 +1,10 @@
+Insert the following data into Shopper table. Modify the data in case of constraint violation.
+
+ShopperId		ShopperName		Gender	MobileNo		Address
+101			Mark Jane		M		1234567890		Allen Street, New York
+
+
+Query : INSERT INTO Shopper VALUES (101, 'Mark Jane', 'Male', 1234567890, 'Allen Street, New York')
+
+
+# Change M to Male while inserting value
