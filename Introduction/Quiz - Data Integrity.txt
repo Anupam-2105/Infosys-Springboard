@@ -1,28 +1,28 @@
 1) The relationship between the two relations is created using __________
 
-Foreign Key
+Ans : Foreign Key
 
 
 2) Which of the following statement(s) is/are FALSE about Primary key? [ Choose any TWO]
 
-There can be more than one Primary key for a table
+Ans : There can be more than one Primary key for a table
 Columns with string(Char/Varchar2) data types cannot be made Primary key because they are large 
 
 3) The entity Customer(CustId,CustName,Email,ContactNo,Adress) has three Candidate keys: a) CustId b) Email and c) ContactNo. Suggest the best Primary key for this entity.
 
-CustID
+Ans : CustID
 
 
 4) Identify the Candidate key for the RechargePlan table.
 
-Operator, Plans
+Ans : Operator, Plans
 
 
 5) Identify the Primary key for the RechargePayment table.
 
-RechargeID
+Ans : RechargeID
 
 
 6) Identify the Foreign key for the table RechargePayment.
 
-Operator, Plans 
+Ans : Operator, Plans 
