@@ -1,2 +1,0 @@
-Print max print min print second max print second min
-In this order you have to print
