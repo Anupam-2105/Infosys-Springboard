@@ -1,0 +1,15 @@
+Create the Store table as per specification below.
+
+ColumnName		DataType and Size		Constraints		DESCRIPTION
+Name			VARCHAR2(20)		PRIMARY KEY		Unique name of the store. For ex. WalMart, Big Bazar
+Location		VARCHAR2(30)		NOT NULL		Location of the store. For ex. Dallas
+ManagerName		VARCHAR2(30)		UNIQUE		Manager's name of the store
+
+
+Query:
+
+CREATE TABLE Store(
+Name VARCHAR2(20) PRIMARY KEY,
+Location VARCHAR2(30) NOT NULL,
+ManagerName VARCHAR2(30) UNIQUE
+)

@@ -1,0 +1,12 @@
+Retrieve the orderid, quotationid and status of those orders where order is placed between the dates '1-Dec-2014' and '1-Jan-2015'
+
+Database structure
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+Quotation (Quotationid, Sname, Itemcode, Quotedprice, Qdate, Qstatus)
+Orders (Orderid, Quotationid, Qtyordered, Orderdate, Status, Pymtdate, Delivereddate, Amountpaid, Pymtmode)
+Retailoutlet (Roid, Location, Managerid)
+
+
+Query : SELECT OrderId, QuotationId, Status FROM Orders WHERE OrderDate BETWEEN '1-DEC-2014' AND '1-JAN-2015'
+
+

@@ -1,0 +1,10 @@
+Remove the Emailid column from Supplier table
+
+ColumnName		DataType		Constraints		DESCRIPTION
+Supplierid		VARCHAR2(6)		PRIMARY KEY		Unique Id of the supplier
+Name			VARCHAR2(30)				Name of the supplier
+ContactNo		VARCHAR2(15)				Contact number of the Supplier
+Emailid		VARCHAR2(30)				Email Id of the supplier
+
+
+Query : ALTER TABLE Supplier DROP COLUMN Emailid;

@@ -1,0 +1,17 @@
+Create the Supplier table based on the specification below.
+
+ColumnName		DataType		Constraints		DESCRIPTION
+Supplierid		VARCHAR2(6)		PRIMARY KEY		Unique Id of the supplier
+Name			VARCHAR2(30)				Name of the supplier
+ContactNo		VARCHAR2(15)	NOT NULL		Contact number of the Supplier
+Emailid		VARCHAR2(30)				Email Id of the supplier
+
+
+Query:
+
+CREATE TABLE Supplier(
+SupplierId VARCHAR2(6) PRIMARY KEY,
+Name VARCHAR2(30),
+ContactNo VARCHAR2(15) NOT NULL,
+EmailId VARCHAR2(30)
+)

@@ -1,0 +1,12 @@
+Retrieve the designation and salary of all 'Manager' and 'Billing Staff'
+
+Database structure
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+Quotation (Quotationid, Sname, Itemcode, Quotedprice, Qdate, Qstatus)
+Orders (Orderid, Quotationid, Qtyordered, Orderdate, Status, Pymtdate, Delivereddate, Amountpaid, Pymtmode)
+Retailoutlet (Roid, Location, Managerid)
+
+
+Query : SELECT DESIGNATION, SALARY FROM EmpDetails WHERE DESIGNATION IN ('Manager','Billing Staff')
+
+

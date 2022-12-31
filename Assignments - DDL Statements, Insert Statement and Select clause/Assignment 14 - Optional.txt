@@ -1,0 +1,12 @@
+Modify the size of state column in Address table from 5 to 20.
+
+ColumnName		DataType		Constraints				DESCRIPTION
+HouseNo		NUMBER		PRIMARY KEY				Unique address identifier
+Street		VARCHAR2(30)	PRIMARY KEY				Unique address identifier
+city			VARCHAR2(20)	PRIMARY KEY	Foreign Key		Existing City present in City table
+zip			NUMBER(6)		Should be >= 0			Zip code of the city
+state			VARCHAR2(5)			
+
+
+
+Query : ALTER TABLE Address MODIFY state VARCHAR2(20)

@@ -1,0 +1,10 @@
+Modify the Supplier table to store the supplier city. The column name should be City and it can have maximum of 10 characters.
+
+ColumnName		DataType		Constraints		DESCRIPTION
+Supplierid		VARCHAR2(6)		PRIMARY KEY		Unique Id of the supplier
+Name			VARCHAR2(30)				Name of the supplier
+ContactNo		VARCHAR2(15)				Contact number of the Supplier
+Emailid		VARCHAR2(30)				Email Id of the supplier
+
+
+Query : ALTER TABLE Supplier ADD City VARCHAR(10);

@@ -1,0 +1,12 @@
+Create the City table as per the specification.
+
+ColumnName		DataType		Constraints		DESCRIPTION
+City			VARCHAR2(20)	UNIQUE		City Name
+
+
+Query:
+
+CREATE TABLE City(
+City Varchar(20) UNIQUE
+)
+

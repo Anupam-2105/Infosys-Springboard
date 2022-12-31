@@ -1,0 +1,15 @@
+Display quotationid, sname, itemcode, quotedprice, qdate, qstatus of those quotations which are not accepted.
+
+Database structure
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+Quotation (Quotationid, Sname, Itemcode, Quotedprice, Qdate, Qstatus)
+Orders (Orderid, Quotationid, Qtyordered, Orderdate, Status, Pymtdate, Delivereddate, Amountpaid, Pymtmode)
+Retailoutlet (Roid, Location, Managerid)
+
+
+Query : SELECT * FROM Quotation WHERE QSTATUS IN ('Rejected','Closed')
+
+OR
+
+SELECT * FROM Quotation WHERE QSTATUS='Rejected' OR QSTATUS='Closed'
+

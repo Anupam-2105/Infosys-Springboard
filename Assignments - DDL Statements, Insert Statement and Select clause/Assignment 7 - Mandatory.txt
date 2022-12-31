@@ -1,0 +1,23 @@
+Create the Bill table as per specification below.
+
+Column Name		DataType and Size		Constraints						DESCRIPTION
+BillNo		NUMBER			PRIMARY KEY						Unique id of the bill. For ex. 5001, 5005
+StoreName		VARCHAR2(20)		FOREIGN KEY						Existing StoreName in Store table
+Shopperid		NUMBER			FOREIGN KEY						Existing ShopperId in Shopper table
+ArCode		CHAR(5)			FOREIGN KEY						Article purchased by the shopper. Existing ArCode in Article table
+Amount		NUMBER										Bill amount. For ex. 350.0
+BillDate		DATE											Date of billing
+Quantity		NUMBER(4)			Should be > 0 and Default value is 1	Quantity of the article purchased. For ex. 45
+
+
+Query : 
+
+CREATE TABLE Bill(
+BillNo NUMBER PRIMARY KEY,
+StoreName VARCHAR2(20) REFERENCES Store(StoreName),
+ShopperId NUMBER REFERENCES Shopper(ShopperId),
+Arcode CHAR(5) REFERENCES Article(ArCode),
+Amount NUMBER,
+BillDate DATE,
+Quantity NUMBER(4) DEFAULT 1 CHECK(Quantity>0)
+)

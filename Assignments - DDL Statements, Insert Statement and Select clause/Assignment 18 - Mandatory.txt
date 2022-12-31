@@ -1,0 +1,8 @@
+Insert the following data into Bill table created on Day 2.
+
+			BillNo	StoreName		Shopperid	ArCode	Amount	BillDate	Quantity
+Valid data		1001		Loyal World		101		A1001		1000		20-OCT-15	2
+Invalid data	1002		Loyal World		101		A1002		1000		15-NOV-15	10
+
+
+Query : INSERT INTO Bill VALUES(1001,'Loyal World',101,'A1001',1000,'20-OCT-15',2);

@@ -1,0 +1,7 @@
+Drop the column city from the City table
+
+ColumnName		DataType		Constraints		DESCRIPTION
+City			VARCHAR2(20)	UNIQUE		City Name
+
+
+Query : ALTER TABLE City DROP COLUMN City;
