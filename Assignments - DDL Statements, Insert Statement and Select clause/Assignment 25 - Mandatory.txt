@@ -1,0 +1,16 @@
+Retrieve the itemcode, descr and unit price of the items which have 'Shirt' or 'Skirt' in their desc and their category is 'B'.
+
+Database structure
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+Quotation (Quotationid, Sname, Itemcode, Quotedprice, Qdate, Qstatus)
+Orders (Orderid, Quotationid, Qtyordered, Orderdate, Status, Pymtdate, Delivereddate, Amountpaid, Pymtmode)
+Retailoutlet (Roid, Location, Managerid)
+
+
+Query : 
+
+SELECT ItemCode, Descr, Price FROM Item WHERE 
+Category='B' AND
+Descr LIKE '%Shirt%' 
+OR
+Descr LIKE '%Skirt%' 

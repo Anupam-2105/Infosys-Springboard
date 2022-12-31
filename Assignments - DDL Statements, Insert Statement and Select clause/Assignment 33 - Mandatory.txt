@@ -1,0 +1,18 @@
+The management wants to increase salary of all employees by 10%. Write a query to display empid, current salary, increased salary and incremented amount.
+
+Database structure
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+Quotation (Quotationid, Sname, Itemcode, Quotedprice, Qdate, Qstatus)
+Orders (Orderid, Quotationid, Qtyordered, Orderdate, Status, Pymtdate, Delivereddate, Amountpaid, Pymtmode)
+Retailoutlet (Roid, Location, Managerid)
+
+
+Query : 
+
+SELECT 
+  EMPID,
+  Salary AS "Current Salary", 
+  Salary*1.10 AS "New Salary", 
+  Salary*0.1 AS "Incremented Amount" 
+FROM EmpDetails
+
