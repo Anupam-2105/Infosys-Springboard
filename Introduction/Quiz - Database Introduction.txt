@@ -1,23 +1,23 @@
 1) A Database Management System is:
 
-Collection of programs to access data
+Ans : Collection of programs to access data
 
 
 2) DBMS is an interface between:
 
-Database application and Database 
+Ans : Database application and Database 
 
 
 3)Which of the following are disadvantages of file system to store data? [Choose any THREE]
 
-Data redundancy and inconsistency 
+Ans : Data redundancy and inconsistency 
 Difficulty in fetching data 
 Data isolation is not present 
 
 
 4) Which of the following features are provided by DBMS? [Choose ALL that apply]
 
-Maintain accuracy of data 
+Ans : Maintain accuracy of data 
 Utilities for performance analysis and logging 
 Ensure modifications are successful or not done at all 
 Recovery mechanism for data 
@@ -25,10 +25,10 @@ Recovery mechanism for data
 
 5)Which of the following is an advantage of database management approach?
 
-Data can be accessed by multiple programs 
+Ans : Data can be accessed by multiple programs 
 
 
 6) Which of the following features are provided by DBMS? [Choose any TWO]
 
-Protect data from system crash 
+Ans : Protect data from system crash 
 Authorized access 
