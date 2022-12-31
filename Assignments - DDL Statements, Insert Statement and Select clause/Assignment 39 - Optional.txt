@@ -1,0 +1,10 @@
+Retrieve the designation and salary of all 'Manager' and 'Billing Staff' who have salary in the range of 2500 to 5000 (both inclusive).
+
+Database structure
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+Quotation (Quotationid, Sname, Itemcode, Quotedprice, Qdate, Qstatus)
+Orders (Orderid, Quotationid, Qtyordered, Orderdate, Status, Pymtdate, Delivereddate, Amountpaid, Pymtmode)
+Retailoutlet (Roid, Location, Managerid)
+
+
+Query : SELECT designation, salary FROM EmpDetails WHERE designation IN ('Manager', 'Billing Staff') AND salary BETWEEN 2500 AND 5000

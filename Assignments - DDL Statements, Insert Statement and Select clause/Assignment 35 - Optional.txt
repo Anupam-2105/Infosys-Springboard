@@ -1,0 +1,10 @@
+Insert the following data into Address table.
+
+HouseNo	Street		city			zip		state
+350		Electronics City	Mysore		570018	Karnataka
+
+
+Query : INSERT INTO Address VALUES (350,'Electronics City','Mysore',570018,'Karnataka')
+
+
+

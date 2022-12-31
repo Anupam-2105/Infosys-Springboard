@@ -1,0 +1,6 @@
+Insert the following data into Article table created on Day 2.
+
+ArCode	ArName	Rate	Quantity	Class
+A1002		Keyboard	1000	10		B
+
+Query : INSERT INTO Article VALUES ('A1002','Keyboard',1000,10,'B')

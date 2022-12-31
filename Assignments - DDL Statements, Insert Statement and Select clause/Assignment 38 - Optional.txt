@@ -1,0 +1,10 @@
+Retrieve the itemtype, descr and unit price of those items whose price is more than 4000.
+
+Database structure
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+Quotation (Quotationid, Sname, Itemcode, Quotedprice, Qdate, Qstatus)
+Orders (Orderid, Quotationid, Qtyordered, Orderdate, Status, Pymtdate, Delivereddate, Amountpaid, Pymtmode)
+Retailoutlet (Roid, Location, Managerid)
+
+
+Query : SELECT  itemtype, descr, price FROM Item WHERE price > 4000

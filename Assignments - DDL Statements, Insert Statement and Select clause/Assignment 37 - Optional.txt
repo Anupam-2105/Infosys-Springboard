@@ -1,0 +1,10 @@
+Retrieve quotationid, qdate and quotedprice for quotations that are quoted in 1400 to 2150 range (not inclusive of these values).
+
+Database structure
+Item (Itemcode, Itemtype, Descr, Price, Reorderlevel, Qtyonhand, Category)
+Quotation (Quotationid, Sname, Itemcode, Quotedprice, Qdate, Qstatus)
+Orders (Orderid, Quotationid, Qtyordered, Orderdate, Status, Pymtdate, Delivereddate, Amountpaid, Pymtmode)
+Retailoutlet (Roid, Location, Managerid)
+
+
+Query : SELECT quotationid, qdate, quotedprice FROM Quotation WHERE quotedprice>1400 AND quotedprice<2150
