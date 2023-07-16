@@ -1,6 +1,6 @@
 1) Which requirements can be implemented using a referential integrity constraint?
 
-Ans : Which requirements can be implemented using a referential integrity constraint?
+Ans : Customer information must be known before anything is sold to him/her
 
 
 2) Which of the following statements are TRUE? [Choose any TWO]
