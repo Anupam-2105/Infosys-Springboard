@@ -1,0 +1,19 @@
+1) Student Table
+Which of the following statements will execute successfully?
+
+Ans : INSERT INTO Student VALUES(1, 'Alice', 'F', NULL);  
+
+
+
+2) Student Table
+Which of the following statements will execute successfully? [Choose any TWO]
+
+Ans : INSERT INTO Student(Id, Name, Gender, DOJ) VALUES(1, 'Alice', 'F', NULL); 
+INSERT INTO Student(Id, Name) VALUES(1, 'Alice'); 
+
+
+
+3) Consider an empty Student table provided below:
+Following ALTER statements are successfully executed on this table sequentially
+
+Ans : INSERT INTO Student VALUES(1, 3, 'M')
