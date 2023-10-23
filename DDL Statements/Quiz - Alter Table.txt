@@ -1,0 +1,30 @@
+﻿1) Consider the current table structure and desired table structure.
+Identify the statements that will achieve the result.
+i. ALTER TABLE Trainee DROP COLUMN (ClassRoom);
+ii. ALTER TABLE Trainee RENAME COLUMN EmpName to Name;
+iii. ALTER TABLE Trainee ADD Email VARCHAR2(25)
+iv. ALTER TABLE Trainee DROP (ClassRoom);
+v. ALTER TABLE Trainee MODIFY Email VARCHAR2(25)
+vi. ALTER TABLE Trainee MODIFY COLUMN EmpName to Name;
+Ans : ii, iv, v
+
+2) The Project Manager has a requirement to update the size of a column and also rename it.
+James and Kevin have the following conversations to meet the requirement:
+James: I will use alter statement to update the size and column aliasing to rename the column
+Kevin: I will use alter statement to update the size and also to rename the column
+Whose statement(s) is/are TRUE to meet the requirement given above?
+Ans : Only Kevin
+
+3) The Project Manager has given the requirement to remove a column and add a new column that accepts values mandatorily which are unique. Team members(Alice,Jack and John) had the following conversations after the sprint meeting with their manager.
+Alice: I will use alter statement to remove the column and also to add a column with primary key constraint 
+Jack: I will use drop statement to remove the column and alter statement to add a column with primary key constraint 
+John: I will use alter statement to remove the column and also to add a primary key constraint 
+Whose statement(s) is/are completely TRUE to meet the requirement given above?
+Ans : Only Alice
+
+4) The Tech Lead has given a requirement to his team(Alice and Charlie) to add a column in the existing table purchase for payment mode in the ecommerce application with a default value as UPI.
+Charlie and Alice have the following conversations to meet the requirement:
+Charlie: I will use alter statement to add the column and default as UPI payment mode.
+Alice: I will use create statement to add the column and default as UPI payment mode.
+Whose statement(s) is/are TRUE to meet the requirement given above?
+Ans : Only Charlie
