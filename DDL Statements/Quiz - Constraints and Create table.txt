@@ -1,0 +1,19 @@
+﻿1) What will be the output of the following command?
+Create Table Emp(Name VARCHAR(20) primary key ,DOB DATE primary key,DeptNo NUMBER(4));
+
+Ans : Error will be thrown
+
+
+2) Consider the creation of the following table: Customer(CustId, AccountNo, CustName) with combination of columns Custid and AccountNo should be UNIQUE. Which one of the following options is CORRECT?
+
+Ans : Put a table level UNIQUE constraint involving both the columns
+
+
+3) Which one of the following DDL statements will create a table? Assume table customer is already created with appropriate constraints and data types.
+
+Ans : a
+Create Table Account(Acctid NUMBER(3),Custid NUMBER(4),Balance NUMBER(8,2),constraint ac_aid_pk primary key(Acctid),constraint ac_cid_fk foreign key(Custid) references Customer(Cid));
+
+
+
+
